@@ -1,0 +1,7 @@
+.layout-item{
+    height: 200px;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 300px 300px 200px;
+}

@@ -1,0 +1,83 @@
+/* css *
+
+/* class */
+.title{
+    color: rgb(0, 17, 252);
+    font-size: 100px;
+}
+/* id */
+/* #title{
+    color: yellow;
+} */
+p.text.text-color{
+    color: red;
+}
+input[type='text']{
+    border: 4px solid;
+    padding: 10px 70px;
+    border-radius:20px;
+    margin-top: 20px;
+}
+input[type='email']{
+    border: 4px solid red;
+    padding: 10px 70px;
+    border-radius:20px;
+    margin-top: 20px;
+}
+input[type='number']{
+    border: 4px solid #6c09f7;
+    padding: 10px 70px;
+    border-radius:20px;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+}
+button[class~='btn-infor']{
+    color: blue;
+    background-color: red ;
+}
+a[href^='https']{
+    color: red;
+
+}
+a[href$='org']{
+    color: rgb(67, 52, 235);
+
+}
+div[class|='content']
+{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+
+p.text ~ h3.text-info {
+    color: blue;
+}
+header.header> div.banner + div.logo > div.content img.big-logo{
+    width: 300px;
+    height: 300px;
+}
+
+section.content :first-child{
+    color:rgb(0, 17, 252);
+}
+
+section.content :first-of-type{
+    color: blue;
+}
+
+section.content :last-child{
+    color: red;
+}
+
+section.content :last-of-type{
+    color: yellow;
+}
+
+section.content :nth-child{
+    
+}

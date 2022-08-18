@@ -1,0 +1,38 @@
+/* reset css */
+* , *::before , *::after{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+
+}
+/* css chung */
+
+
+/* khai bao bien */
+
+html{
+    font-size: 62.5%;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+/* ---------------------- */
+.box{
+    width: 300px;
+    height: 300px;
+    border: thin solid black;
+
+}
+
+.box-child2{
+    margin-top: 20px;
+}
+
+.text{
+    font-size: 30px;
+    color: blue;
+    text-align: center ;
+    line-height: 300px;
+}
